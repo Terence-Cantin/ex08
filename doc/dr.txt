@@ -1,0 +1,44 @@
+ex08
+
+11/20
+
+README.md: OK
+
+8.1
+-1
+var associationFriends = [ 
+             {"Association": "Joueurs de hockey", "Prénom": "Fred", "Nom de famille": "Girard", "Courriel": "fred.girard@gmail.ca\n"}, 
+             {"Association": "Lucky 7", "Prénom": "Maxime", "Nom de famille": "Gagnon", "Courriel": "max.gagnon@hotmail.com\n"}, 
+             {"Association": "Joueurs de hockey", "Prénom": "Raphaël", "Nom de famille": "Patry", "Courriel": "Patry1@ulaval.ca\n"}, 
+             {"Association": "Lucky 7", "Prénom": "Sylvain", "Nom de famille": "Lemieux", "Courriel": "Sylemieux@hotmail.ca\n"}, 
+             {"Association": "Joueurs de hockey", "Prénom": "Jean-Philippe", "Nom de famille": "Lehuu", "Courriel": "jp_lehuu1@ulaval.ca\n"}, 
+             {"Association": "Lucky 7", "Prénom": "Terry", "Nom de famille": "Cantin", "Courriel": "terry.cantin@msn.ca\n"}, 
+             ];
+-->
+associations = [
+  {“name”: “IS”, “description”: “Information Systems”, “members”: 
+   [{“firstName”: “Dzenan”, “lastName”: “Ridjanovic”, “email”: “dr@gmail.com”},
+    {“firstName”: “Robert”, “lastName”: “Nelson”, “email”: “rn@gmail.com”}]},
+  {“name”: “CS”, “description”: “Computer Science”,  “members”: 
+   [{“firstName”: “David”, “lastName”: “Curtis”, “email”: “dc@gmail.com”}]}
+]
+
+-1 GIVEN ASSOCIATION
+Sort the list of members of a GIVEN ASSOCIATION first by the last name, 
+THEN by the first name.
+-1 THEN
+
+-1
+formatage SVPL
+ List beginWith(List members, String letter) { 
+ List returnList = new List();
+ -->
+List beginWith(List members, String letter) { 
+  List returnList = new List();
+  
+  
+-5
+8.2
+Create a CLASS MODEL with associations and members...
+
+
